@@ -81,7 +81,7 @@ new intents to existing code structure and flow:
       but this was
       problematic because it would identify a frame as a letterbox if there was a black object in the frame.
     - It took much prompting back and forth to get it to use a reasonable algorithm.
-- I asked it to lazy-load the imports but it suggested adding a lazy-load library instead of just doing it inside a
+- I asked it to lazy-load the imports, but it suggested adding a lazy-load library instead of just doing it inside a
   function. Maybe I should have been more specific.
 - It initially suggested frame-skipping to increase performance, but that shouldn't have been the first suggestion, I
   had to prompt it directly by asking it to use a threadpool. (oh, and it forgot to bring the progress bar with it 🥴)
