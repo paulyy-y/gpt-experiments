@@ -15,8 +15,8 @@ The script also supports threading to read the frames from the video file in
 parallel, and to process the frames in parallel. This can significantly speed
 up the processing of large video files.
 
-GPT Note: Used mostly OpenAI's GPT-5 for this, except for when I ran out of the allotted prompts for the time-block,
-after which I went to GPT 2.5.
+GPT Note: Used mostly OpenAI's GPT-4 for this, except for when I ran out of the allotted prompts for the time-block,
+after which I went to GPT 3.5.
 
 ## Dependencies
 
